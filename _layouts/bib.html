@@ -9,9 +9,6 @@
           {%- else -%}
           <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
-          {%- if entry.award -%}
-          <i class="fad fa-medal"></i>
-          {%- endif -%}
         {%- endif -%}
         </div>
 
@@ -92,7 +89,9 @@
             {{ periodical | strip }}
           </div>
         {%- endif %}
-        
+        {%- if entry.award -%}
+        <em>🏆{{entry.award}}</em>
+        {%- endif -%}
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
@@ -159,5 +158,6 @@
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
           {%- endif %}
+
         </div>
       </div>
