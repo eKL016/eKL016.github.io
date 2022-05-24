@@ -18,7 +18,7 @@ nav_order: 2
 
 </div>
 <div class="publications">
-<h3>DEMO/EA</h3>
+<h3>DEMO & EA</h3>
 {%- for y in page.demo_years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f demos -q @*[year={{y}}]* %}
