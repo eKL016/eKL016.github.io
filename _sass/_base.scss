@@ -6,7 +6,16 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans', 'PingFang TC', 'Heiti TC', '微軟正黑體', sans-serif;
+}
+
+.post-title, .post-title > *{
+  font-family: 'Merriweather', 'PingFang TC', 'Heiti TC', 'Adobe 繁黑體 Std', 'AdobeFanHeitiStd-Bold', '微軟正黑體', sans-serif !important;
+  margin-bottom: 0.1rem;
+}
+
+.post-header {
+  margin-bottom: 1.25rem;
 }
 
 hr {
@@ -93,8 +102,22 @@ blockquote {
 
 // Profile
 
+.clearfix {
+  margin-bottom: 1rem;
+}
+
+.clearfix > * {
+  margin-bottom: 0.5rem;
+}
+
+.desc {
+  font-size: 1.25rem;
+}
+
 .profile {
+  margin-top: 1rem;
   margin-left: 1rem;
+  margin-bottom: 1rem;
   width: 100%;
 
   .address {
@@ -105,12 +128,13 @@ blockquote {
       display: inline-block;
       margin: 0;
     }
+    text-align: right;
   }
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 35%;
     .address {
       p { display: block; }
     }
@@ -129,6 +153,9 @@ blockquote {
   }
 }
 
+.news {
+  margin-bottom: 1rem;
+}
 
 // Navbar customization
 
@@ -404,7 +431,6 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -435,7 +461,6 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
       .abbr {
         height: 2rem;
-        margin-bottom: 0.5rem;
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
@@ -449,14 +474,17 @@ footer.sticky-bottom {
           }
         }
         .award {
+          font-size: 0.5rem;
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
         }
       }
       .title {
+        line-height: 1.5rem;
         font-weight: bolder;
       }
       .author {
+        font-size: 0.75rem;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
@@ -468,9 +496,15 @@ footer.sticky-bottom {
           border-bottom: 1px solid;
           font-style: normal;
         }
+        margin-bottom: 0.5rem;
+      }
+      .periodical {
+        font-size: 0.75rem;
+        margin-bottom: 0.2rem;
       }
       .links {
         a.btn {
+          margin-left: 0;
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
@@ -583,3 +617,4 @@ html.transition *:after {
     }
   }
 }
+

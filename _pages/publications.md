@@ -10,7 +10,7 @@ nav_order: 2
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
-<h3>FULL PAPER</h3>
+<h3>Conference Paper</h3>
 {%- for y in page.paper_years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
@@ -18,7 +18,7 @@ nav_order: 2
 
 </div>
 <div class="publications">
-<h3>DEMO & EA</h3>
+<h3>Demo & EA</h3>
 {%- for y in page.demo_years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f demos -q @*[year={{y}}]* %}
