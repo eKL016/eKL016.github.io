@@ -74,7 +74,7 @@ stackoverflow_id: #your stackoverflow id
 contact_note: >
   
 
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
+google_analytics: UA-232446876 # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
@@ -170,7 +170,7 @@ defaults:
   - scope:
       path: "assets/**/*.*"
     values:
-      sitemap: true
+      sitemap: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
@@ -225,7 +225,7 @@ scholar:
 
   query: "@*"
 
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, oa] # Filter out certain bibtex entry keywords used internally from the bib output
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
