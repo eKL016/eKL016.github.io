@@ -125,14 +125,16 @@ blockquote {
   width: 100%;
 
   .address {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
+    margin-bottom: 0.5rem;
+    font-family: 'Noto Sans Mono', monospace;
     p {
       display: inline-block;
       margin: 0;
     }
     text-align: right;
+  }
+  figure {
+    margin-bottom: 0.5rem;
   }
 }
 
