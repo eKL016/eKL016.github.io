@@ -15,7 +15,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am an experienced engineer and researcher working as a research assistant with [Dr. Yung-Ju Chang](https://www.armuro.info/) at National Chiao Tung University.
+I am an engineer and researcher working as a research assistant with [Dr. Yung-Ju Chang](https://www.armuro.info/) at National Chiao Tung University.
 
 Previously, I received my master's degree in computer science from National Taiwan University, where I was mentored by [Dr. Mike Y. Chen](https://mikechen.com/).
 
