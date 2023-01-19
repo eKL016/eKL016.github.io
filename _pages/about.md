@@ -2,8 +2,8 @@
 layout: about
 title: About
 permalink: /
-subtitle: A software developer & HCI ex-researcher
-subtitle-pre: A software developer /<br>HCI ex-researcher
+subtitle: A software engineer & HCI ex-researcher
+subtitle-pre: A software engineer /<br>HCI ex-researcher
 
 profile:
   align: right
@@ -15,7 +15,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am a software developer currently working at [Siemens EDA (ex-Mentor Graphics Corp.)](https://eda.sw.siemens.com/en-US/). After work, I am still involved in side projects related to CSCW/UIST research.
+I am a software engineer currently working at [Siemens EDA (ex-Mentor Graphics Corp.)](https://eda.sw.siemens.com/en-US/). After work, I am still involved in side projects related to CSCW/UIST research.
 
 Previously, I received my master's degree in computer science from National Taiwan University, where I was advised by [Prof. Mike Y. Chen](https://mikechen.com/) and contributed to a series of UIST-themed projects.
 
